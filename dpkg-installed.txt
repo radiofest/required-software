@@ -70,6 +70,7 @@ bzip2                                         1.0.8-2
 bzip2-doc                                     1.0.8-2
 ca-certificates                               20211016~20.04.1
 ca-certificates-java                          20190405ubuntu1
+chafa                                         1.2.1-1
 checkinstall                                  1.6.2+git20170426.d24a630-2ubuntu1
 cheese-common                                 3.34.0-1ubuntu1
 cloud-guest-utils                             0.31-7-gd99b2d76-0ubuntu1
@@ -298,6 +299,7 @@ graphviz                                      2.42.2-3build2
 grep                                          3.4-1
 groff-base                                    1.22.4-4build1
 gsettings-desktop-schemas                     3.36.0-1ubuntu1
+gsfonts                                       1:8.11+urwcyr1.0.7~pre44-4.4
 gstreamer1.0-clutter-3.0:arm64                3.0.27-1
 gstreamer1.0-gl:arm64                         1.16.2-4ubuntu0.1
 gstreamer1.0-plugins-base:arm64               1.16.2-4ubuntu0.1
@@ -334,6 +336,7 @@ icu-devtools                                  66.1-2ubuntu2.1
 ieee-data                                     20180805.1
 iio-sensor-proxy                              2.8-1ubuntu2
 im-config                                     0.44-1ubuntu1.3
+imagemagick-6-common                          8:6.9.10.23+dfsg-2.1ubuntu11.9
 indicator-application                         12.10.1+19.04.20190308.1-0ubuntu3
 indicator-common                              16.10.0+18.04.20180321.1-0ubuntu4
 info                                          6.7.0.dfsg.2-5
@@ -395,6 +398,7 @@ libaacs0:arm64                                0.9.0-2
 libacars-dev                                  2.1.4-1
 libaccountsservice0:arm64                     0.6.55-0ubuntu12~20.04.5
 libacl1:arm64                                 2.2.53-6
+ri  libad9361-0:arm64                             0.2-1
 libad9361-dev                                 0.2-1
 libaec0:arm64                                 1.0.4-1
 libaeroambe-dev                               1.1
@@ -633,6 +637,7 @@ libcfitsio8:arm64                             3.470-3
 libcgi-fast-perl                              1:2.15-1
 libcgi-pm-perl                                4.46-1
 libcgraph6:arm64                              2.42.2-3build2
+libchafa0:arm64                               1.2.1-1
 libcharls2:arm64                              2.0.0+dfsg-1build1
 libcheese-gtk25:arm64                         3.34.0-1ubuntu1
 libcheese8:arm64                              3.34.0-1ubuntu1
@@ -1216,6 +1221,7 @@ liblo7:arm64                                  0.30-3
 liblocale-gettext-perl                        1.07-4
 liblog4cpp5-dev                               1.1.3-1ubuntu1
 liblog4cpp5v5:arm64                           1.1.3-1ubuntu1
+liblqr-1-0:arm64                              0.4.2-2.1
 liblsan0:arm64                                10.3.0-1ubuntu1~20.04
 libltdl-dev:arm64                             2.4.6-14
 libltdl7:arm64                                2.4.6-14
@@ -1238,6 +1244,8 @@ liblzo2-2:arm64                               2.10-2
 libmad0:arm64                                 0.15.1b-10ubuntu1
 libmagic-mgc                                  1:5.38-4
 libmagic1:arm64                               1:5.38-4
+libmagickcore-6.q16-6:arm64                   8:6.9.10.23+dfsg-2.1ubuntu11.9
+libmagickwand-6.q16-6:arm64                   8:6.9.10.23+dfsg-2.1ubuntu11.9
 libmailtools-perl                             2.21-1
 libmariadb-dev                                1:10.3.34-0ubuntu0.20.04.1
 libmariadb3:arm64                             1:10.3.34-0ubuntu0.20.04.1
@@ -1494,6 +1502,8 @@ libpython3.8:arm64                            3.8.10-0ubuntu1~20.04.5
 libpython3.8-dev:arm64                        3.8.10-0ubuntu1~20.04.5
 libpython3.8-minimal:arm64                    3.8.10-0ubuntu1~20.04.5
 libpython3.8-stdlib:arm64                     3.8.10-0ubuntu1~20.04.5
+libpython3.9-minimal:arm64                    3.9.5-3ubuntu0~20.04.1
+libpython3.9-stdlib:arm64                     3.9.5-3ubuntu0~20.04.1
 libqca-qt5-2:arm64                            2.2.1-2build1
 libqca-qt5-2-plugins:arm64                    2.2.1-2build1
 libqcustomplot-dev                            2.0.1+dfsg1-1build1
@@ -1794,7 +1804,7 @@ libwbclient0:arm64                            2:4.13.17~dfsg-0ubuntu0.21.04.2
 libwebkit2gtk-4.0-37:arm64                    2.36.4-0ubuntu0.20.04.1
 libwebp6:arm64                                0.6.1-2ubuntu0.20.04.1
 libwebpdemux2:arm64                           0.6.1-2ubuntu0.20.04.1
-libwebpmux3:arm64                             0.6.1-2ubuntu0.20.04.1
+libwebpmux3:arm64                             0.6.1-2ubuntu0.20.04.3
 libwebrtc-audio-processing1:arm64             0.3.1-0ubuntu3
 libwebsockets-dev:arm64                       3.2.1-3
 libwebsockets15:arm64                         3.2.1-3
@@ -2045,6 +2055,7 @@ nano                                          4.8-1ubuntu1
 ncurses-base                                  6.2-0ubuntu2
 ncurses-bin                                   6.2-0ubuntu2
 ncurses-term                                  6.2-0ubuntu2
+neofetch                                      7.0.0-1
 net-tools                                     1.60+git20180626.aebd88e-1ubuntu1
 netbase                                       6.1
 netcat-openbsd                                1.206-1ubuntu1
@@ -2295,6 +2306,8 @@ python3-zmq                                   18.1.1-3
 python3.8                                     3.8.10-0ubuntu1~20.04.5
 python3.8-dev                                 3.8.10-0ubuntu1~20.04.5
 python3.8-minimal                             3.8.10-0ubuntu1~20.04.5
+python3.9                                     3.9.5-3ubuntu0~20.04.1
+python3.9-minimal                             3.9.5-3ubuntu0~20.04.1
 qdoc-qt5                                      5.12.8-0ubuntu1
 qhelpgenerator-qt5                            5.12.8-0ubuntu1
 qlipper                                       1:5.1.2-1build1

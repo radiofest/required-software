@@ -1,5 +1,5 @@
 # Ссылка на дистрибутив ОС
-https://sourceforge.net/projects/dragonos-focal/files/DragonOS_Focal_R26.iso/download
+https://sourceforge.net/projects/dragonos-pi64/files/DragonOS_Pi64_Beta32.img.gz/download
 
 # Список используемого программного обеспечения
 

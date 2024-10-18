@@ -1,5 +1,5 @@
 # Ссылка на дистрибутив ОС
-https://sourceforge.net/projects/dragonos-pi64/files/DragonOS_Pi64_Beta32.img.gz/download
+https://sourceforge.net/projects/dragonos-pi64/files/DragonOS_Pi64_Beta37.img.gz/download
 
 # Список используемого программного обеспечения
 
